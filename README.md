@@ -1,13 +1,13 @@
-# plantillas-basicas
+# plantillas-basicas📑
  Las plantillas hechas con Tailwind CSS son diseños preconfigurados para crear interfaces web, utilizando el enfoque de clases utilitarias de este popular framework. A diferencia de CSS tradicional, Tailwind permite aplicar estilos directamente en los elementos HTML, lo que acelera la creación de diseños rápidos y escalables.
 
 Una plantilla de Tailwind es básicamente un conjunto de archivos HTML y CSS ya organizados, listos para usarse y personalizarse. Generalmente incluyen la estructura de la página, navegación, botones, formularios y otros componentes comunes, ofreciendo flexibilidad para adaptarlos a las necesidades del proyecto.
 
 Lo más destacado de estas plantillas es su diseño responsivo. Gracias a clases como sm:, md:, y lg:, los elementos se adaptan automáticamente a diferentes tamaños de pantalla, lo que facilita la creación de interfaces que funcionen bien en móviles, tabletas y escritorios sin complicaciones.
-# Cards
+# Cards🗃️
 ![Captura de pantalla 2025-01-13 125025](https://github.com/user-attachments/assets/7be12420-d2cd-4767-8214-f4894a9e7d30)
 Plantilla de cards dinámicas generalmente se utiliza para mostrar información en un formato visualmente atractivo y organizado. Las "cards" (tarjetas) son componentes que pueden contener imágenes, texto y botones, y son ideales para mostrar productos, artículos, perfiles o cualquier tipo de contenido que se pueda organizar de manera modular.
-# Organizador-Galeria
+# Organizador-Galeria 🖼️📸
 ![Captura de pantalla 2025-01-13 124954](https://github.com/user-attachments/assets/6c57669a-3c5e-48c2-8ac1-3fb30158b37e)
 Permite organizar y mostrar tus fotos de manera atractiva y eficiente.
 1. Diseño visualmente atractivo: Cada imagen se presenta en tarjetas (cards) con un diseño limpio y elegante, usando un sistema de rejilla adaptable. ¡Las fotos se verán increíbles en cualquier dispositivo!.
@@ -16,7 +16,7 @@ Permite organizar y mostrar tus fotos de manera atractiva y eficiente.
 
 3. Diseño responsivo: Ya sea que estés utilizando un teléfono móvil, tablet o escritorio, el Organizador de Fotos se ajustará perfectamente a cualquier pantalla.
 
-# Presentacion de Empresa
+# Presentacion de Empresa💡
    ![Captura de pantalla 2025-01-13 124848](https://github.com/user-attachments/assets/6de27f52-5747-4b94-b602-36ebca4a72bb)
 1. Página de inicio (Home)
 La página principal es visualmente atractiva y fácil de navegar. En la parte superior, podría tener un encabezado con el logo de la empresa y un menú de navegación con enlaces a secciones clave como "Servicios", "Sobre nosotros", "Proyectos", "Contacto", etc.
