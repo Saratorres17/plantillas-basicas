@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+<nav class="flex flex-wrap items-center justify-between p-3 bg-[#e8e8e5]">
+    <img src="/imagenes/logo.png" alt="Logo" class="h-16 w-24object-cover">
+
+    <div class="flex md:hidden">
+        <button id="hamburger">
+          <img class="toggle block" src="https://img.icons8.com/fluent-systems-regular/2x/menu-squared-2.png" width="40" height="40" />
+          <img class="toggle hidden" src="https://img.icons8.com/fluent-systems-regular/2x/close-window.png" width="40" height="40" />
+        </button>
+    </div>
+    <div class=" toggle hidden w-full md:w-auto md:flex text-right text-bold mt-5 md:mt-0 md:border-none">
+        <a href="#home" class="block md:inline-block hover:text-blue-500 px-3 py-3 md:border-none">Home
+        </a>
+        <a href="#services" class="block md:inline-block hover:text-blue-500 px-3 py-3 md:border-none">Services
+        </a>
+        <a href="#aboutus" class="block md:inline-block hover:text-blue-500 px-3 py-3 md:border-none">About us
+        </a>
+        <a href="#gallery" class="block md:inline-block hover:text-blue-500 px-3 py-3 md:border-none">Gallery
+        </a>
+        <a href="#contactUs" class="block md:inline-block hover:text-blue-500 px-3 py-3 md:border-none">Visit Us
+        </a>
+    </div>
+
+    <div class="toggle w-full text-end hidden md:flex md:w-auto px-2 py-2 md:rounded">
+        <a href="tel:+123">
+            <div class="flex justify-end">
+                <div class="flex items-center h-10 w-30 rounded-md bg-[#c8a876] text-white font-medium p-2">
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+                    </svg>
+                    Call now
+                </div>
+            </div>
+        </a>
+    </div>
+
+</nav>
+<!-- hero seciton -->
+<div class="relative w-full h-[320px]" id="home">
+    <div class="absolute inset-0 opacity-70">
+        <img src="" alt="Background Image" class="object-cover object-center w-full h-full" />
+
+    </div>
+    <div class="absolute inset-9 flex flex-col md:flex-row items-center justify-between">
+        <div class="md:w-1/2 mb-4 md:mb-0">
+            
+            <a href="#contactUs"
+                class="px-6 py-3 bg-[#c8a876] text-white font-medium rounded-full hover:bg-[#c09858]  transition duration-200">Contact
+                Us</a>
+        </div>
+    </div>
+</div>
+
+<!-- our services section -->
+<section class="py-10" id="services">
+    <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-gray-800 mb-8 text-center">Our Services</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="/imagenes/IMG_0366.jpeg" alt="wheat flour grinding"
+                    class="w-full h-64 object-cover">
+                <div class="p-6 text-center">
+                    <h3 class="text-xl font-medium text-gray-800 mb-2">Instalaciones </h3>
+                    <p class="text-gray-700 text-base">¿Necesitas una instalación eléctrica segura y eficiente? En ELETMARK, contamos con un equipo de expertos en instalación eléctrica, listo para brindarte soluciones confiables y de alta calidad. Ya sea para tu hogar, oficina o negocio.</p>
+                </div>
+            </div>
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="/imagenes/IMG_0367.jpeg" alt="Coffee"
+                    class="w-full h-64 object-cover">
+                <div class="p-6 text-center">
+                    <h3 class="text-xl font-medium text-gray-800 mb-2">Mantenimientos</h3>
+                    <p class="text-gray-700 text-base">Ofrecemos un servicio completo de mantenimiento de aires acondicionados para garantizar que tu sistema de climatización esté siempre en su mejor estado. </p>
+                </div>
+            </div>
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="/imagenes/IMG_0368.jpeg" alt="Coffee"
+                    class="w-full h-64 object-cover">
+                <div class="p-6 text-center">
+                    <h3 class="text-xl font-medium text-gray-800 mb-2">Supervisiones</h3>
+                    <p class="text-gray-700 text-base">la importancia de garantizar que tus instalaciones eléctricas y sistemas de aire acondicionado funcionen de manera segura y eficiente. Nuestro servicio de supervisión está diseñado para brindarte la tranquilidad de saber que todo está en orden y cumple con los más altos estándares de calidad y seguridad.
+                    <details>
+                        <summary>Read More</summary>
+                        <p>¿Qué incluye nuestro servicio de supervisión?</p>
+                        <li>Inspección de instalaciones eléctricas</li>
+                        <br>
+                        <li>
+                            Verificación de sistemas de aire acondicionado  
+                        </li><br>
+                        <li>Detección de posibles riesgos:</li>
+                    </details>
+                    </p>
+
+                </div>
+            </div>
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="https://cdn.prod.website-files.com/5ff3273633e29c2a7c8b6c80/60e2bc96d03c584784f200fa_blog_paneles-solares.jpg" alt="Coffee"
+                    class="w-full h-64 object-cover">
+                <div class="p-6 text-center">
+                    <h3 class="text-xl font-medium text-gray-800 mb-2">Instalación de paneles solares</h3>
+                    <p class="text-gray-700 text-base">Aprovecha la energía del sol y reduce tus costos de electricidad con nuestra instalación de paneles solares. Ofrecemos soluciones personalizadas para hogares y empresas, asegurando una instalación eficiente y de alta calidad. Conviértete en parte de la energía renovable y ahorra a largo plazo. ¡Contáctanos hoy para más información y empieza a generar tu propia energía!
+                    <details>
+                        <summary>Read More</summary>
+                        <p>
+                            Contribuye al desarrollo sostenible. Genera empleo en las zonas donde se instala. Reduce el uso de combustibles fósiles. Reduce las importaciones energéticas. </p>
+                    </details>
+                    </p>
+                </div>
+            </div>
+        
+            <div
+                class="bg-white rounded-lg bg-gradient-to-tr from-pink-300 to-blue-300 p-0.5 shadow-lg overflow-hidden min-h-full">
+                <div class="text-center text-white font-medium">Special product</div>
+                <img src="https://energysaperu.com/wp-content/uploads/2022/03/IMG-nota-Mantenimiento-Electrico-Industrial-1-1024x512.jpg" alt="Coffee"
+                    class="w-full h-64 object-cover rounded-t-lg">
+                <div class="p-6 bg-white text-center rounded-b-lg md:min-h-full">
+                    <h3 class="text-xl font-medium text-gray-800 mb-2">Reparación de cortocircuitos y fallas eléctricas</h3>
+                    <p class="text-gray-700 text-base"><span class="font-medium underline">Nuestra especialidad</span>
+                        ¿Tienes problemas con cortocircuitos o fallas eléctricas en tu hogar o negocio? Nuestro servicio de reparación se encarga de identificar y solucionar cualquier inconveniente eléctrico, restaurando la seguridad y funcionalidad de tu sistema. ¡No arriesgues tu bienestar, contáctanos para una reparación rápida y eficiente!
+                    </p>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="https://firereport.net/wp-content/uploads/2021/03/Seguridad-Electrica-en-Lugares-de-Trabajo.jpeg" alt="papad"
+                    class="w-full h-64 object-cover">
+                <div class="p-6 text-center">
+                    <h3 class="text-xl font-medium text-gray-800 mb-2">Instalación de sistemas de seguridad eléctrica</h3>
+                    <p class="text-gray-700 text-base">La seguridad de tu hogar o negocio es una prioridad. Instalamos sistemas de seguridad eléctrica, incluyendo cámaras, alarmas y controles de acceso, para que puedas estar tranquilo sabiendo que tu espacio está protegido las 24 horas. ¡Protege lo que más importa con nuestros servicios de instalación!
+                    <details>
+                        <summary>Read More</summary>
+                        <p>La seguridad eléctrica es fundamental porque la electricidad es potente y potencialmente dañina. Una mala manipulación de la electricidad puede causar lesiones graves o la muerte, por lo que mantener la seguridad en el trabajo requiere el uso de las técnicas adecuadas.14 </p>
+                    </details>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- about us -->
+<section class="bg-gray-100" id="aboutus">
+    <div class="container mx-auto py-16 px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
+            <div class="max-w-lg">
+                <h2 class="text-3xl font-bold text-gray-800 mb-8 text-center">About Us</h2>
+                <p class="mt-4 text-gray-600 text-lg">
+                    Fundada en 2024, ELET MARK es una empresa comprometida con ofrecer soluciones eléctricas innovadoras y de alta calidad. Nos especializamos en la instalación, mantenimiento y reparación de sistemas eléctricos para hogares, negocios e industrias, siempre con un enfoque en la seguridad y la eficiencia. <br><br>
+
+                    Nuestro equipo de expertos trabaja con las mejores tecnologías y materiales para garantizar que cada servicio se realice con los más altos estándares. En ELET MARK, entendemos que cada cliente tiene necesidades únicas, por lo que ofrecemos soluciones personalizadas que cumplen con los requisitos específicos de cada proyecto. <br><br>
+                    
+                    Nos enorgullece contar con un equipo altamente capacitado, siempre listo para enfrentar cualquier desafío eléctrico. Nuestro objetivo es proporcionar un servicio rápido, confiable y accesible, asegurando que todos nuestros proyectos se entreguen a tiempo y dentro del presupuesto. <br><br>
+                    
+                    En ELET MARK, tu seguridad es nuestra prioridad. ¡Déjanos iluminar tus espacios con soluciones eléctricas de confianza!  </p>
+            </div>
+            <div class="mt-12 md:mt-0">
+                <img src="https://eldinero.com.do/wp-content/uploads/Electricidad-1.jpg" alt="About Us Image" class="object-cover rounded-lg shadow-md">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- why us  -->
+<section class="text-gray-700 body-font mt-10">
+    <div class="flex justify-center text-3xl font-bold text-gray-800 text-center">
+        Why Us?
+    </div>
+    <div class="container px-5 py-12 mx-auto">
+        <div class="flex flex-wrap text-center justify-center">
+            <div class="p-4 md:w-1/4 sm:w-1/2">
+                <div class="px-4 py-6 transform transition duration-500 hover:scale-110">
+                    <div class="flex justify-center">
+                        <img src="https://image3.jdomni.in/banner/13062021/58/97/7C/E53960D1295621EFCB5B13F335_1623567851299.png?output-format=webp" class="w-32 mb-3">
+                    </div>
+                    <h2 class="title-font font-regular text-2xl text-gray-900">Experiencia y Profesionalismo</h2>
+                </div>
+            </div>
+
+            <div class="p-4 md:w-1/4 sm:w-1/2">
+                <div class="px-4 py-6 transform transition duration-500 hover:scale-110">
+                    <div class="flex justify-center">
+                        <img src="https://image2.jdomni.in/banner/13062021/3E/57/E8/1D6E23DD7E12571705CAC761E7_1623567977295.png?output-format=webp" class="w-32 mb-3">
+                    </div>
+                    <h2 class="title-font font-regular text-2xl text-gray-900">Soluciones Personalizadas</h2>
+                </div>
+            </div>
+
+            <div class="p-4 md:w-1/4 sm:w-1/2">
+                <div class="px-4 py-6 transform transition duration-500 hover:scale-110">
+                    <div class="flex justify-center">
+                        <img src="https://image3.jdomni.in/banner/13062021/16/7E/7E/5A9920439E52EF309F27B43EEB_1623568010437.png?output-format=webp" class="w-32 mb-3">
+                    </div>
+                    <h2 class="title-font font-regular text-2xl text-gray-900">Compromiso con la Calidad</h2>
+                </div>
+            </div>
+
+            <div class="p-4 md:w-1/4 sm:w-1/2">
+                <div class="px-4 py-6 transform transition duration-500 hover:scale-110">
+                    <div class="flex justify-center">
+                        <img src="https://image3.jdomni.in/banner/13062021/EB/99/EE/8B46027500E987A5142ECC1CE1_1623567959360.png?output-format=webp" class="w-32 mb-3">
+                    </div>
+                    <h2 class="title-font font-regular text-2xl text-gray-900">Atención Rápida y Confiable</h2>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- gallery -->
+<section class="text-gray-700 body-font" id="gallery">
+    <div class="flex justify-center text-3xl font-bold text-gray-800 text-center py-10">
+        Gallery
+    </div>
+
+    <div class="grid grid-cols-1 place-items-center sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4">
+
+        <div class="group relative">
+            <img
+      src="https://factorenergetico.mx/wp-content/uploads/2023/07/calidad-de-la-energia.png"
+      alt="Image 1"
+      class="aspect-[2/3] h-80 object-cover rounded-lg transition-transform transform scale-100 group-hover:scale-105"
+    />
+        </div>
+
+        <div class="group relative">
+            <img
+      src="https://www.equans.cl/sites/g/files/tkmtob166/files/styles/coh_medium/public/2023-07/equans-servicio-electrico-02.jpg?itok=Xkyaz3No"
+      alt="Image 1"
+      class="aspect-[2/3] h-80 object-cover rounded-lg transition-transform transform scale-100 group-hover:scale-105"
+    />
+        </div>
+
+        <div class="group relative">
+            <img
+      src="https://www.comunicare.es/wp-content/uploads/2021/04/electricidad-1200x626-1.jpg"
+      alt="Image 1"
+      class="aspect-[2/3] h-80 object-cover rounded-lg transition-transform transform scale-100 group-hover:scale-105"
+    />
+        </div>
+        <div class="group relative">
+            <img
+      src="https://static.wixstatic.com/media/19a4ad_5dca2192af864e27a683842a489a97a1~mv2.jpg/v1/fill/w_640,h_426,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/19a4ad_5dca2192af864e27a683842a489a97a1~mv2.jpg"
+      alt="Image 1"
+      class="aspect-[2/3] h-80 object-cover rounded-lg transition-transform transform scale-100 group-hover:scale-105"
+    />
+        </div>
+
+
+
+    </div>
+
+</section>
+
+
+<section class="bg-gray-100">
+    <div class="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:py-20 lg:px-8">
+        <div class="max-w-2xl lg:max-w-4xl mx-auto text-center">
+            <h2 class="text-3xl font-extrabold text-gray-900" id="contactUs">Nuestra Ubicacion</h2>
+            
+        </div>
+        <div class="mt-8 lg:mt-20">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div>
+                    <div class="max-w-full mx-auto rounded-lg overflow-hidden">
+                        <div class="border-t border-gray-200 px-6 py-4">
+                            <h3 class="text-lg font-bold text-gray-900">Contactanos</h3>
+                            <p class="mt-1 font-bold text-gray-600"><a href="tel:+123">Phone: 7778-9087</a></p>
+                            <a class="flex m-1" href="tel:+919823331842">
+                                <div class="flex-shrink-0">
+                                    <div
+                                        class="flex items-center justify-between h-10 w-30 rounded-md bg-indigo-500 text-white p-2">
+                                      
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+                                        </svg>
+                                       Llama ahora
+                                    </div>
+                                </div>
+
+                            </a>
+                        </div>
+                        <div class="px-6 py-4">
+                            <h3 class="text-lg font-medium text-gray-900">Nuestra direccion</h3>
+                            <p class="mt-1 text-gray-600">Bulevar</p>
+                        </div>
+                        <div class="border-t border-gray-200 px-6 py-4">
+                            <h3 class="text-lg font-medium text-gray-900">Horarios</h3>
+                            <p class="mt-1 text-gray-600">Monday - Sunday : 2pm - 9pm</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="rounded-lg overflow-hidden order-none sm:order-first">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3876.3356992760673!2d-89.15320162413549!3d13.698106798532846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f633715e07a575b%3A0xaaae1adf8343e4b3!2sPlaza%20Mundo%20Soyapango!5e0!3m2!1ses!2ssv!4v1736793980089!5m2!1ses!2ssv" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+<!-- footer -->
+<section>
+    <footer class="bg-gray-200 text-white py-4 px-3">
+        <div class="container mx-auto flex flex-wrap items-center justify-between">
+            <div class="w-full md:w-1/2 md:text-center md:mb-4 mb-8">
+                <p class="text-xs text-gray-400 md:text-sm">Copyright 2025 &copy; Sara Torres</p>
+            </div>
+            <div class="w-full md:w-1/2 md:text-center md:mb-0 mb-8">
+                <ul class="list-reset flex justify-center flex-wrap text-xs md:text-sm gap-3">
+                    <li><a href="https://www.instagram.com/p/DCj7rg1Rfcp/?utm_source=ig_web_copy_link" class="text-gray-400 hover:text-white">Contact</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    </footer>
+</section>
+
+<script>
+    document.getElementById("hamburger").onclick = function toggleMenu() {
+        const navToggle = document.getElementsByClassName("toggle");
+        for (let i = 0; i < navToggle.length; i++) {
+          navToggle.item(i).classList.toggle("hidden");
+        }
+      };
+</script>
+</body>
+</html>
